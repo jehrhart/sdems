@@ -238,11 +238,11 @@ googleAnalytics = ""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://facebook.com"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
