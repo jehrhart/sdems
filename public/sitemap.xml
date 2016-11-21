@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sandiegoems.org.s3-website-us-west-2.amazonaws.com/index.html</loc>
-    <lastmod>2015-12-12T21:47:31-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://sandiegoems.org.s3-website-us-west-2.amazonaws.com/test.html</loc>
-    <lastmod>2015-12-12T21:47:31-08:00</lastmod>
+    <loc>https://sandiegoems.org/index.html</loc>
   </url>
   
 </urlset>
