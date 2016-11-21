@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://sandiegoems.org"
+baseurl = "https://sdems.herokuapp.com/"
 languageCode = "en-us"
 title = "SD EMS Association"
 publishdir = "public"
