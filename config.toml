@@ -199,7 +199,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "jehrhartiv@gmail.com"
+    email = ""
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -234,7 +234,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Copyright San Diego EMS Association 2016."
+    copyright = "San Diego EMS Association 2016 ©"
 
     [[params.footer.social]]
       icon = "fa-twitter"
@@ -246,7 +246,7 @@ googleAnalytics = ""
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
-      link = "sdems/content/privacy.md"
+      link = "#"
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
