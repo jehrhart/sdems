@@ -74,37 +74,37 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-gavel"
+      icon = "fa fa-gavel"
       title = "Due Process"
       description = "We provide effective labor relations through hired professional services."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-microphone"
+      icon = "fa fa-microphone"
       title = "A Voice"
       description = "We empower the voice of Paramedics and EMTs with local stakeholders."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-ambulance"
+      icon = "fa fa-ambulance"
       title = "Advancement"
       description = "We have the local budget to fight for advancement in our region."
       url = "#"
 
 		[[params.services.row.list]]
-      icon = "fa-balance-scale"
+      icon = "fa fa-balance-scale"
       title = "Fair Dues"
       description = "We keep your dues local, spending money only on local issues and voted agenda."
       url = "#"
 
 		[[params.services.row.list]]
-      icon = "fa-handshake-o"
+      icon = "fa fa-handshake-o"
       title = "Local Unity"
       description = "We have strong ties to our neighboring workforces and will effectively build cohesion."
       url = "#"
 
 		[[params.services.row.list]]
-			icon = "fa-check-square"
+			icon = "fa fa-check-square"
 			title = "Voting Rights"
 			description = "In a local association your vote actually means something."
 			url = "#"
@@ -237,11 +237,11 @@ googleAnalytics = ""
     copyright = "San Diego EMS Association 2016 ©"
 
     [[params.footer.social]]
-      icon = "fa-twitter"
+      icon = "fa fa-twitter"
       link = "https://twitter.com"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
+      icon = "fa fa-facebook"
       link = "https://facebook.com"
 
     [[params.footer.quicklinks]]
