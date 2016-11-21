@@ -1,0 +1,253 @@
+# Site settings
+baseurl = "https://sandiegoems.org"
+languageCode = "en-us"
+title = "SD EMS Association"
+publishdir = "public"
+theme = "hugo-agency-theme"
+uglyurls = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "San Diego EMS Association"
+  description = """Non-profit association representing the working paramedics, EMTs, and health professionals of San Diego City and County"""
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = ""
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "Our Promise"
+		portfolio = "Why?"
+    about = "Timeline"
+    team = "Leadership"
+    contact = "Contact"
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Welcome to the"
+    subtitle = "San Diego EMS Association"
+    buttonText = "Tell me more"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Our Promise"
+    subtitle = "What we offer our membership:"
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-gavel"
+      title = "Due Process"
+      description = "We provide effective labor relations through hired professional services."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-microphone"
+      title = "A Voice"
+      description = "We empower the voice of Paramedics and EMTs with local stakeholders."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-ambulance"
+      title = "Advancement"
+      description = "We have the local budget to fight for advancement in our region."
+      url = "#"
+
+		[[params.services.row.list]]
+      icon = "fa-balance-scale"
+      title = "Fair Dues"
+      description = "We keep your dues local, spending money only on local issues and voted agenda."
+      url = "#"
+
+		[[params.services.row.list]]
+      icon = "fa-handshake-o"
+      title = "Local Unity"
+      description = "We have strong ties to our neighboring workforces and will effectively build cohesion."
+      url = "#"
+
+		[[params.services.row.list]]
+			icon = "fa-check-square"
+			title = "Voting Rights"
+			description = "In a local association your vote actually means something."
+			url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    title = "Why An Association?"
+    subtitle = "The benefits of an association include self-governance with complete control over bylaws and structure.  It maintains a more robust budget that can support employee staff and additional services and initiatives.  Professional services can be hired and dismissed as necessary by the membership.  The association can adapt to their local environment as needed because of these things."
+
+	# About section
+	[params.about]
+	  enable = true
+	  title = "Timeline"
+	  subtitle = "From humble beginnings comes greatness..."
+	  endpoint = "Be part<br>of our<br>story!"
+
+	  # The events will be listed from the top to the bottom.
+	  # All images are stored under 'static/img/about'.
+	  # Replace them with your own.
+	  [[params.about.events]]
+	    img = "a.jpg"
+	    date = "11.01.16"
+	    title = "An association is born"
+	    description = "Like-minded individuals joined together to form a local employee-run association"
+
+	  [[params.about.events]]
+	    img = "b.jpg"
+	    date = "11.07.16"
+	    title = "EIN acquired"
+	    description = "In the first steps towards building a non-profit entity, recognition from the tax authorities is gained."
+
+  # Team section
+  [params.team]
+    enable = true
+		center = true
+    title = "Executive Team"
+    subtitle = "Serving Our Local Membership"
+    description = ""
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "4.jpg"
+      name = "Jane Doe"
+      position = "President & Chairman"
+      # For bio markdown and even multiline strings are available.
+
+    [[params.team.members]]
+      img = "4.jpg"
+      name = "John Doe"
+      position = "Vice President"
+
+    [[params.team.members]]
+      img = "4.jpg"
+      name = "Jane Doe"
+      position = "Treasurer"
+
+		[[params.team.members]]
+      img = "4.jpg"
+      name = "Jane Doe"
+      position = "Secretary"
+
+		[[params.team.members]]
+			img = "4.jpg"
+			name = "John Doe"
+			position = "Chief Steward"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = ""
+    buttonText = "Send message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "info@sandiegoems.org"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Copyright San Diego EMS Association 2016."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
