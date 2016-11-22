@@ -4,7 +4,6 @@ languageCode = "en-us"
 title = "SD EMS Association"
 publishdir = "public"
 theme = "hugo-agency-theme"
-uglyurls = true
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -128,21 +127,28 @@ googleAnalytics = ""
 	  [[params.about.events]]
 	    img = "a.jpg"
 	    date = "11.01.16"
-	    title = "An association is born"
+	    title = "An Association is Born!"
 	    description = "Like-minded individuals joined together to form a local employee-run association"
 
 	  [[params.about.events]]
 	    img = "b.jpg"
-	    date = "11.07.16"
-	    title = "EIN acquired"
-	    description = "In the first steps towards building a non-profit entity, recognition from the tax authorities is gained."
+	    date = "Date"
+	    title = "Event"
+	    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    [[params.about.events]]
+      img = "b.jpg"
+      date = "Date"
+      title = "Event"
+      description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
 
   # Team section
   [params.team]
     enable = true
 		center = true
-    title = "Executive Team"
-    subtitle = "Serving Our Local Membership"
+    title = "Interim Executive Team"
+    subtitle = "Transitional Leadership"
     description = ""
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -150,28 +156,28 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "4.jpg"
-      name = "Jane Doe"
-      position = "President & Chairman"
+      name = "Marcia Neal"
+      position = "President"
       # For bio markdown and even multiline strings are available.
 
     [[params.team.members]]
-      img = "4.jpg"
-      name = "John Doe"
+      img = "3.jpg"
+      name = "Paul Mckee"
       position = "Vice President"
 
     [[params.team.members]]
-      img = "4.jpg"
-      name = "Jane Doe"
+      img = "5.jpg"
+      name = "Todd Klinginsmith"
       position = "Treasurer"
 
 		[[params.team.members]]
-      img = "4.jpg"
-      name = "Jane Doe"
+      img = "2.jpg"
+      name = "Mark Marchessault"
       position = "Secretary"
 
 		[[params.team.members]]
-			img = "4.jpg"
-			name = "John Doe"
+			img = "1.jpg"
+			name = "Peter Kushner"
 			position = "Chief Steward"
 
   # Contact section
