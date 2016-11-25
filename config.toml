@@ -19,7 +19,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "San Diego EMS Association"
-  description = """Non-profit association representing the working paramedics, EMTs, and health professionals of San Diego City and County"""
+  description = "Non-profit association representing the working paramedics, EMTs, and health professionals of San Diego City and County"
 
   # Link custom assets relative to /static
   custom_css = []
