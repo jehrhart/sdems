@@ -213,15 +213,15 @@ googleAnalytics = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "Your Name"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "Your Email"
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Your Phone Number (no spaces or dashes)"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
