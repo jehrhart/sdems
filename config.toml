@@ -172,6 +172,21 @@ googleAnalytics = ""
 			name = "Peter Kushner"
 			position = "Chief Steward"
 
+    [[params.team.members]]
+      img = "6.jpg"
+      name = "Jeff Hardison"
+      position = "Paramedic Steward"
+
+    [[params.team.members]]
+      img = "7.jpg"
+      name = "Scott Semer"
+      position = "Paramedic Steward"
+
+    [[params.team.members]]
+      img = "5.jpg"
+      name = "Scott Christopher"
+      position = "EMT Steward"
+
   # Contact section
   [params.contact]
     enable = true
