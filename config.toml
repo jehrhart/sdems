@@ -112,7 +112,7 @@ googleAnalytics = ""
   [params.portfolio]
     enable = true
     title = "Why An Association?"
-    subtitle = "The benefits of an association include self-governance with complete control over their voted bylaws and infrastructure.  It maintains a robust local budget that can support employee leadership positions and local professional services.  Professional services can be hired and dismissed as necessary incentivizing them to perfom at a level desired by the membership.  Local associations, a mix of employees and professionals, are the most effective method to achieve local goals."
+    subtitle = "The primary benefit of an association includes self-governance with complete control over voted bylaws and structure.  It maintains a robust local budget that can support employee leadership positions and local professional services.  Professional services can be hired and dismissed as necessary incentivizing them to perfom at a level desired by the membership.  Local associations, a mix of employees and professionals, are the most effective method to achieve local goals."
 	# About section
 	[params.about]
 	  enable = true
