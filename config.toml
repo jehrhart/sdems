@@ -243,12 +243,12 @@ googleAnalytics = ""
     copyright = "San Diego EMS Association 2016 ©"
 
     [[params.footer.social]]
-      icon = "fa fa-twitter"
+      icon = "fa-twitter"
       link = "https://twitter.com"
 
     [[params.footer.social]]
-      icon = "fa fa-facebook"
-      link = "https://facebook.com"
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/groups/760840700730860/"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
