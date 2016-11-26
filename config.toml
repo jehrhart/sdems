@@ -48,7 +48,7 @@ googleAnalytics = ""
     brand = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Our Promise"
+    services = "SDEMSA"
 		portfolio = "Why?"
     about = "Timeline"
     team = "Leadership"
@@ -67,58 +67,57 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "Our Promise"
-    subtitle = "What we offer our membership:"
+    title = "The San Diego Emergency Medical Services Association"
+    subtitle = "Representing Paramedics and EMTs:"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa fa-gavel"
       title = "Due Process"
-      description = "We provide effective labor relations through hired professional services."
+      description = "Effective labor management relations via local professionals."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa fa-microphone"
       title = "A Voice"
-      description = "We empower the voice of Paramedics and EMTs with local stakeholders."
+      description = "A powerful voice with local EMS stakeholders."
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa fa-ambulance"
       title = "Advancement"
-      description = "We have the local budget to fight for advancement in our region."
+      description = "Strong and continuous promotion of EMS throughout the region."
       url = "#"
 
 		[[params.services.row.list]]
       icon = "fa fa-balance-scale"
-      title = "Fair Dues"
-      description = "We keep your dues local, spending money only on local issues and voted agenda."
+      title = "Reasonable Dues"
+      description = "A dues structure balanced with membership needs."
       url = "#"
 
 		[[params.services.row.list]]
       icon = "fa fa-handshake-o"
       title = "Local Unity"
-      description = "We have strong ties to our neighboring workforces and will effectively build cohesion."
+      description = "We are agnostic to a national union allowing cooperation with other locals."
       url = "#"
 
 		[[params.services.row.list]]
-			icon = "fa fa-check-square"
-			title = "Voting Rights"
-			description = "In a local association your vote actually means something."
+			icon = "fa fa-bank"
+			title = "Democracy"
+			description = "Membership voting controls everything from the ground up."
 			url = "#"
 
   # Portfolio section
   [params.portfolio]
     enable = true
     title = "Why An Association?"
-    subtitle = "The benefits of an association include self-governance with complete control over bylaws and structure.  It maintains a more robust budget that can support employee staff and additional services and initiatives.  Professional services can be hired and dismissed as necessary by the membership.  The association can adapt to their local environment as needed because of these things."
-
+    subtitle = "The benefits of an association include self-governance with complete control over their voted bylaws and infrastructure.  It maintains a robust local budget that can support employee leadership positions and local professional services.  Professional services can be hired and dismissed as necessary incentivizing them to perfom at a level desired by the membership.  Local associations, a mix of employees and professionals, are the most effective method to achieve local goals."
 	# About section
 	[params.about]
 	  enable = true
 	  title = "Timeline"
-	  subtitle = "From humble beginnings comes greatness..."
+	  subtitle = "From Humble Beginnings Come Great Things"
 	  endpoint = "Be part<br>of our<br>story!"
 
 	  # The events will be listed from the top to the bottom.
@@ -132,16 +131,9 @@ googleAnalytics = ""
 
 	  [[params.about.events]]
 	    img = "b.jpg"
-	    date = "Date"
-	    title = "Event"
-	    description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    [[params.about.events]]
-      img = "b.jpg"
-      date = "Date"
-      title = "Event"
-      description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+	    date = "To Be Announced"
+	    title = "Decertification Vote!"
+	    description = "NLRB Petition for AMR (SD County) to leave NEMSA and join SDEMSA."
 
   # Team section
   [params.team]
@@ -209,7 +201,7 @@ googleAnalytics = ""
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    #error = "Message could not be sent. Please contact us at mail@example.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
