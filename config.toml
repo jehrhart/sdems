@@ -76,37 +76,31 @@ googleAnalytics = ""
       icon = "fa fa-gavel"
       title = "Due Process"
       description = "Effective labor management relations via local professionals."
-      url = ""
 
     [[params.services.row.list]]
       icon = "fa fa-microphone"
       title = "A Voice"
       description = "A powerful voice with local EMS stakeholders."
-      url = ""
 
     [[params.services.row.list]]
       icon = "fa fa-ambulance"
       title = "Advancement"
       description = "Strong and continuous promotion of EMS throughout the region."
-      url = ""
 
 		[[params.services.row.list]]
       icon = "fa fa-balance-scale"
       title = "Reasonable Dues"
       description = "A dues structure balanced with membership needs."
-      url = ""
 
 		[[params.services.row.list]]
       icon = "fa fa-handshake-o"
       title = "Local Unity"
       description = "We are agnostic to a national union allowing cooperation with other locals."
-      url = ""
 
 		[[params.services.row.list]]
 			icon = "fa fa-bank"
 			title = "Democracy"
 			description = "Membership voting controls everything from the ground up."
-			url = ""
 
   # Portfolio section
   [params.portfolio]
