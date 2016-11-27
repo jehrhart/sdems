@@ -177,7 +177,7 @@ googleAnalytics = ""
       position = "Paramedic Steward"
 
     [[params.team.members]]
-      img = "5.png"
+      img = ""
       name = "Scott Christopher"
       position = "EMT Steward"
 
