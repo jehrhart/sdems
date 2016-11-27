@@ -152,7 +152,7 @@ googleAnalytics = ""
       position = "Vice President"
 
     [[params.team.members]]
-      img = "5.png"
+      img = "5.jpg"
       name = "Todd Klinginsmith"
       position = "Treasurer"
 
