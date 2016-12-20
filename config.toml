@@ -125,9 +125,15 @@ googleAnalytics = ""
 
 	  [[params.about.events]]
 	    img = "b.jpg"
-	    date = "To Be Announced"
+	    date = "12.16.16"
 	    title = "Decertification Vote!"
-	    description = "NLRB Petition for AMR (SD County) to leave NEMSA and join SDEMSA."
+	    description = "A NLRB Petition for AMR (SD County) to leave NEMSA and join SDEMSA has begun."
+
+    [[params.about.events]]
+      img = "c.jpg"
+      date = "To Be Announced"
+      title = "An Election is Coming!"
+      description = "Soon you will have an opportunity to choose your representative body."
 
   # Team section
   [params.team]
