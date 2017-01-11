@@ -130,6 +130,12 @@ googleAnalytics = ""
 	    description = "A NLRB Petition for AMR (SD County) to leave NEMSA and join SDEMSA has begun."
 
     [[params.about.events]]
+      img = "d.jpg"
+      date = "12.27.16"
+      title = "NLRB Petition Filed!"
+      description = "An election petition has been filed.  Stay tuned for updates!"
+
+    [[params.about.events]]
       img = "c.jpg"
       date = "To Be Announced"
       title = "An Election is Coming!"
