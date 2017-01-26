@@ -163,42 +163,50 @@ googleAnalytics = ""
       img = "4.jpg"
       name = "Marcia Neal"
       position = "President"
+      bio = "marcia@sandiegoems.org"
       # For bio markdown and even multiline strings are available.
 
     [[params.team.members]]
       img = "3.jpg"
       name = "Paul Mckee"
       position = "Vice President"
+      bio = "paul@sandiegoems.org"
 
     [[params.team.members]]
       img = "5.jpg"
       name = "Todd Klinginsmith"
       position = "Treasurer"
+      bio = "todd@sandiegoems.org"
 
 		[[params.team.members]]
       img = "2.jpg"
       name = "Mark Marchessault"
       position = "Secretary"
+      bio = "mark@sandiegoems.org"
 
 		[[params.team.members]]
 			img = "1.jpg"
 			name = "Peter Kushner"
 			position = "Chief Steward"
+      bio = "peter@sandiegoems.org"
 
     [[params.team.members]]
       img = "7.jpg"
       name = "Jeff Hardison"
       position = "Paramedic Steward"
+      bio = "jeff@sandiegoems.org"
 
     [[params.team.members]]
       img = "6.jpg"
       name = "Scott Semer"
       position = "Paramedic Steward"
+      bio = "semer@sandiegoems.org"
 
     [[params.team.members]]
       img = "8.jpg"
       name = "Scott Christopher"
       position = "EMT Steward"
+      bio = "christopher@sandiegoems.org"
 
   # Contact section
   [params.contact]
