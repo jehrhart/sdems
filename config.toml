@@ -135,11 +135,18 @@ googleAnalytics = ""
       title = "NLRB Petition Filed!"
       description = "An election petition has been filed.  Stay tuned for updates!"
 
+
     [[params.about.events]]
-      img = "c.jpg"
-      date = "To Be Announced"
-      title = "An Election is Coming!"
-      description = "Soon you will have an opportunity to choose your representative body."
+      img = "f.jpg"
+      date = "1.25.17"
+      title = "Infrastructure Updates!"
+      description = "We now have a PO Box and have sent our incorporation documents to the State to establish our legal status as our own Mutual Benefit Corporation. Thank you Interim Treasurer Todd Klingensmith!"
+
+    [[params.about.events]]
+      img = "e.jpg"
+      date = "2.3.17"
+      title = "Election to Certify SDEMSA"
+      description = "NLRB Region 21 will be mailing ballots to you.  Please follow their instructions carefully and return your ballots promptly, as they will be counted 2.14.17!"
 
   # Team section
   [params.team]
